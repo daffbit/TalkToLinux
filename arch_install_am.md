@@ -161,7 +161,7 @@ ru_UA KOI8-U
 ```
 Պահպանում ենք փոփոխությունները (Ctrl O, Enter) և փակում ենք ֆայլը (Ctrl x): Հաջորդիվ ընտրում ենք անգլերենը, որպես հիմնական լեզու և գեներացնում ենք լեզվական կարգավորումները․
 ```bash
-echo 'en_US.UTF-8' > /etc/locale.conf
+echo 'LANG="en_US.UTF-8"' > /etc/locale.conf
 locale-gen
 ```
 
