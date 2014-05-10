@@ -198,6 +198,13 @@ useradd -m -g users -G wheel -s /bin/bash archie
 passwd archie 
 ```
 
+Խմբագրենք sudo ծրագրի կարգավորումները և ավելացնենք wheel խումբը
+```bash
+export EDITOR=nano
+visudo
+```
+Ապամեկնաբանեք *#%wheel   ALL=(ALL) ALL*  տողը (հեռացրեք դիմացի վանդականիշ սիմվոլը) և պահպանեք ֆայլը (Ctrl+O, Ctrl+X):
+
 Հաջորդ քայլն է դուրս գալ համակարգից և անջատել կցված մասերը․
 ```bash
 exit
