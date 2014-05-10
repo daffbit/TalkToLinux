@@ -19,7 +19,7 @@ ping -c 4 google.com
 sudo pacman -S xorg-server xorg-server-utils xorg-xinit mesa
 ```
 
-Որպես սարքավար (driver) ես կտեղադրեմ xf86-video-vesa պակետը, որն առավել քանակով սարքեր է ընդգրկում: Միանգամից տեղադրենք նաև ինչ-որ պակետեր, որոք որոշ մոդելների դեպքում անհրաժեշտ են:
+Որպես սարքավար (driver) ես կտեղադրեմ xf86-video-vesa փաթեթը, որն առավել քանակով սարքեր է ընդգրկում: Միանգամից տեղադրենք նաև ինչ-որ փաթեթներ, որոք որոշ մոդելների դեպքում անհրաժեշտ են:
 ```bash
 sudo pacman -S xf86-video-vesa xf86-input-synaptics alsa-lib alsa-utils alsa-oss alsa-plugins
 ``` 
