@@ -211,7 +211,7 @@ exit
 umount /mnt/boot
 umount /mnt/home
 umount /mnt
-swapoff /dev/sda3
+swapoff -a
 ```
 
 Վերջ․ Հանեք սկավառակը համակարգչից և կատարեք restart.
