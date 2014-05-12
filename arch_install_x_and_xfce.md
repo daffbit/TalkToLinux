@@ -30,7 +30,7 @@ sudo pacman -S ttf-liberation ttf-droid ttf-dejavu
 ```
 
 Վերջ: Հիմա անցնեք XFCE միջավայրին (desktop environment): Բացի XFCE-ից կան բազմաթիվ այլ հագեցած և տարածված միջավայրեր, սակայն ես նախընտրում եմ XFCE թեթև աշխատանքի և օպտիմալության համար: 
-՝՝՝bash
+```bash
 sudo pacman -S xfce4 xfce4-goodies networkmanager
 ```
 Թողնում ենք լռությամբ ընտրությունը (default=all) և հաստատում ենք: 
