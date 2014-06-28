@@ -91,7 +91,7 @@ swapon /dev/sda3
 ```bash
 mkfs.ext2 -L boot /dev/sda2
 mkfs.ext4 -L arch-root /dev/sda5
-mkfs.ext3 -L home /dev/sda6
+mkfs.ext4 -L home /dev/sda6
 ```
 
 Հիմա հարկավոր է կցել մասերը (որոնք արդեն առանձին վիրտուալ դիսկեր են) մեր համակարգին, մասնավորամես կցել /dev/sda5 մասը /mnt պանակին, իսկ /dev/sda2 և /dev/sda6 մասերը համապատասխանաբար /mnt/boot և /mnt/home պանակներին․
